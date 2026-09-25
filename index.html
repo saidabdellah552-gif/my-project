@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي | أحمد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">سيد</a>
+        <nav class="navbar">
+            <a href="#home" class="active">الرئيسية</a>
+            <a href="#about">من أنا</a>
+            <a href="#skills">مهاراتي</a>
+            <a href="#projects">مشاريعي</a>
+            <a href="#contact">تواصل معي</a>
+        </nav>
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </header>
+
+    <main>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <p class="welcome">مرحبًا، أنا</p>
+                <h1>سيد عبداللاه</h1>
+                <h2>مطور مواقع Web Developer</h2>
+                <p>
+                    أتعلم تطوير المواقع وأعمل على بناء مواقع
+                    حديثة وسريعة ومتجاوبة مع جميع الأجهزة.
+                </p>
+                <a href="#projects" class="btn">شاهد مشاريعي</a>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title">من أنا</h2>
+                <p class="section-text">
+                    أنا مطور مواقع مهتم بتعلم HTML و CSS و JavaScript،
+                    وأسعى إلى تطوير مهاراتي وبناء مشاريع حقيقية.
+                </p>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section-title">مهاراتي</h2>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <h3>HTML</h3>
+                        <p>بناء هيكل صفحات الويب.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>CSS</h3>
+                        <p>تصميم وتنسيق صفحات الويب.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>إضافة التفاعل والوظائف للموقع.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section-title">مشاريعي</h2>
+                <div class="projects-container">
+
+                    <div class="project-card">
+                        <h3>مشروع Portfolio</h3>
+                        <p>
+                            موقع شخصي لعرض المعلومات والمهارات والمشاريع.
+                        </p>
+                        <button class="project-btn">عرض المشروع</button>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>متجر إلكتروني</h3>
+                        <p>
+                            متجر إلكتروني يحتوي على منتجات وسلة مشتريات.
+                        </p>
+                        <button class="project-btn">عرض المشروع</button>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>تطبيق المهام</h3>
+                        <p>
+                            تطبيق لإضافة وإدارة المهام اليومية.
+                        </p>
+                        <button class="project-btn">عرض المشروع</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title">تواصل معي</h2>
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="اكتب اسمك">
+                    <input type="email" id="email" placeholder="اكتب بريدك الإلكتروني">
+                    <textarea id="message" placeholder="اكتب رسالتك"></textarea>
+                    <button type="submit" class="btn">إرسال الرسالة</button>
+                </form>
+                <p id="formMessage"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 سيد عبداللاه - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
