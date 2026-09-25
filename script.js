@@ -36,6 +36,7 @@ contactForm.addEventListener("submit", function (event) {
 const projectButtons = document.querySelectorAll(".project-btn");
 
 projectButtons.forEach(function (button) {
+
     
     button.addEventListener("click", function () {
         alert("سيتم إضافة رابط المشروع هنا لاحقًا.");
