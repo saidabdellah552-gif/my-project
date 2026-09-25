@@ -30,7 +30,8 @@ contactForm.addEventListener("submit", function (event) {
 
     formMessage.textContent = "تم إرسال رسالتك بنجاح!";
     contactForm.reset();
-});
+}
+);
 
 const projectButtons = document.querySelectorAll(".project-btn");
 
